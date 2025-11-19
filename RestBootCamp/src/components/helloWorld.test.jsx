@@ -1,7 +1,7 @@
 import { describe, test, expect } from "vitest";
 import { render, screen } from "@testing-library/react";
 import Greeting from "./helloWorld.jsx";
-import "@testing-library/jest-dom";
+import "@testing-library/jest-dom/vitest";
 
 describe("Greeing", () => {
   test(`visar texten "Hello World"`, () => {
